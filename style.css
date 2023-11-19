@@ -1,0 +1,280 @@
+button
+{
+    background-color: #f7e1fb;
+    border-color: #f7e1fb;
+    text-transform: capitalize;
+    padding: 5px 20px;
+}
+
+textarea
+{
+    border: none;
+}
+
+/* Header */
+
+#header 
+{
+    background: url(%%banner%%) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border: none;
+}
+
+#header #header-bottom-left
+{
+    margin: 175px 10px;
+}
+
+/* Body */
+body
+{
+    background:url(%%bg%%);
+}
+
+/* Reddit Logo */
+#header #header-img
+{
+    background: url(%%ame%%);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+/* Tab Menu */
+.tabmenu
+{
+    margin-bottom: 5px;
+}
+
+.tabmenu li a, .tabmenu.formtab a 
+{
+    padding: 2px 4px;
+    background: #e3e3e3;
+    border: 2px solid #4d23cf;
+    color: #4d23cf;
+}
+
+.tabmenu li.selected a, .tabmenu.formtab .selected a {
+    border: 2px solid #4d23cf;
+    background: #90f4e4;
+    color: #4d23cf;
+    font-size: 100%;
+}
+
+/* NSO Logo */
+#header .pagename
+{
+    font-size: 0;
+}
+
+#header .pagename a
+{
+    background: url(%%title%%) no-repeat center;
+    font-size: 0;
+    height: 185px;
+    width: 700px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    right: 0px;
+}
+
+/* Content */
+.content
+{
+    margin: 20px 340px 0px 25px;
+}
+
+.content .link
+{
+    background: #fff8ff;
+    border: 2px solid #4d23cf;
+    padding: 20px 15px;
+}
+
+/* Upvote and Downvote */
+.arrow.up
+{
+    background: url(%%upvote%%) top center;
+    background-size: cover;
+    width: 3.1ex;
+    height: 2.5ex;
+}
+.arrow.upmod
+{
+    background: url(%%upvote-select%%) top center;
+    background-size: cover;
+    width: 3.1ex;
+    height: 2.5ex;
+}
+.arrow.down
+{
+    background: url(%%downvote%%) top center;
+    background-size: cover;
+    width: 3.1ex;
+    height: 2.5ex;
+}
+.arrow.downmod
+{
+    background: url(%%downvote-select%%) top center;
+    background-size: cover;
+    width: 3.1ex;
+    height: 2.5ex;
+}
+.link .score.likes {
+    color: #71c1b4;
+}
+
+.link .score.dislikes {
+    color: #4d23cf;
+}
+
+/* Text Content */
+.thumbnail.self 
+{
+    background: url(%%text-thumb%%) top center;    
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 64px;
+}
+
+.link .usertext-body .md 
+{
+    background-color: #fff8ff;
+    border: 2px solid #4d23cf;
+    border-radius: 0px;
+}
+
+/* Image Content */
+.media-preview-content
+{
+    background-color: #fff8ff;
+    border: 2px solid #4d23cf;
+    padding: 3px;
+    border-radius: 0px;
+}
+
+/* Spoiler Content */
+.thumbnail.spoiler 
+{
+    background: url(%%spoiler%%) top center;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 64px;
+}
+
+/* NSFW Content */
+.thumbnail.nsfw
+{
+    background: url(%%nsfw%%) top center;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 64px;
+}
+
+/* Stamp [SPOILER] [NSFW] */
+.stamp 
+{
+    border-radius: 0px;
+    border: 2px solid;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 4px;
+    background-color: #4d23cf;
+    color: #fff;
+}
+
+/* Comment Area */
+.commentarea
+{
+    background: #e2e2e1;
+    border: 2px solid #4d23cf;
+    padding: 20px 15px;
+}
+
+.comments-page .content .commentarea .nestedlisting>.comment .entry .author 
+{
+    color: #007f82;
+    font-size: 1.1em;
+    margin: 0 5px;
+}
+
+.comments-page .content .commentarea .nestedlisting>.comment .entry .usertext p, .comments-page .content .commentarea .nestedlisting>.comment .entry .usertext h1, .comments-page .content .commentarea .nestedlisting>.comment .entry .usertext li, .comments-page .content .commentarea .nestedlisting>.comment .entry .usertext hr 
+{
+    color: #4d23cf;
+}
+
+.flat-list>li
+{
+    font-weight: lighter;
+}
+
+/* Sidebar */
+.side {
+    float: right;
+    background-color: transparent;
+    margin: 10px 10px;
+    width: 300px;
+}
+
+/* Post  Link and Post Text */
+.submit.submit-link .morelink {
+    background: url(%%link%%);
+    height: 70px;
+    width: 285px;
+    background-repeat: no-repeat;
+}
+
+.submit.submit-text .morelink {
+    background: url(%%text%%);
+    height: 70px;
+    width: 285px;
+    background-repeat: no-repeat;
+}
+
+.submit>.morelink {
+    border: none;
+    background: none;
+    font-size: 0px;
+}
+
+.morelink .nub {
+    display: none;
+}
+
+/* Name */
+.titlebox
+{
+    border: 2px solid #4d23cf;
+    background: #fff8ff;
+    padding: 5px;
+}
+.side h1.redditname {
+    display: block;
+    white-space: nowrap;
+}
+
+.side h1.redditname a 
+{
+    color: #4d23cf;
+    font-size: 15px;
+}
+
+ /* Subscriber/Online Counters */
+.titlebox .word 
+{
+    display: none;
+}
+.titlebox .number:after 
+{
+    content: " KAngel Followers";
+}
+.titlebox .users-online span.number:after 
+{
+    content: " currently dosing";
+}
+
